@@ -5,3 +5,163 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  @media (min-width: 320px) {
+    body {
+        margin: 0;
+        padding: 0;
+      }
+  }
+  /* ---- reset ---- */
+  #navbar {
+      overflow:hidden;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%;
+      height: 80px;
+      background-color: white;
+      color:  #5b5e6d;
+      
+  }
+  #navbar img {
+      width: 120px;
+      height: 50;
+  }
+  #navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px; 
+  }
+  #navbar ul li{
+    height:80px;
+    width: 120px;
+    font-size: 10pt;
+    justify-content: space-between; 
+  }
+  #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 100px; 
+  }
+  #info h1 {
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+  #info img {
+    height:500px;
+    width: 50%;
+}
+#info p {
+    height:50px;
+    width: 80%;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px; 
+}
+#info button{
+    display: flex;
+    color:  #192592;
+    text-align: center;
+    height:30px;
+    width: 100px;
+}
+#company {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center; 
+    margin-top: 100px; 
+    background-color: #e0e2ee;
+    width: 100%;
+    height: 800px;
+}
+.company-pics {
+    display: inline-flexbox;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center ;
+}
+#company button {
+    height:50px;
+    width: 30%;
+
+}
+#company img{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px:
+    flex: 50@;
+}
+
+#try-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding: 20px 15px;   
+}
+#try-out button{
+    height:50px;
+    width: 180px;
+    background-color: #192592;
+    font-size: 10pt;
+    
+}
+#footer-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;  
+}
+#footer-one img {
+    height:10%;
+    width: 10%;
+}
+#footer-one ul {
+    list-style-type: none;
+    height:150px;
+    width: 80px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+#footer-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+    height: 70px;
+}
+#footer-two img {
+    height:20%;
+    width: 20%;
+}
+#footer-two ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#footer-two ul li{
+    padding: 20px 20px;
+    font-size: 10pt;
+}
